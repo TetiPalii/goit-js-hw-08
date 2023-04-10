@@ -1,0 +1,2 @@
+const e=document.querySelector(".feedback-form"),t=(document.querySelector("[type ='submit']"),document.querySelector("[name='email']")),a=document.querySelector('[name="message"]');!function(){const e=localStorage.getItem("feedback-form-state"),m=JSON.parse(e);m&&(t.value=m.email,a.value=m.message)}(),e.addEventListener("input",(function(e){const t=e.currentTarget.elements.email.value,a=e.currentTarget.elements.message.value,m={};m.email=t,m.message=a,localStorage.setItem("feedback-form-state",JSON.stringify(m))}));
+//# sourceMappingURL=03-feedback.7c4f9514.js.map
