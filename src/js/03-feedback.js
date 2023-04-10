@@ -9,7 +9,7 @@ const allValues = {};
 
 setInputValues();
 
-form.addEventListener('input', тзьonInput);
+form.addEventListener('input', onInput);
 function onInput(e) {
   allValues.email = e.currentTarget.elements.email.value;
   allValues.message = e.currentTarget.elements.message.value;
